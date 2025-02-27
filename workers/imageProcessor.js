@@ -3,7 +3,7 @@ const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 const { v4: uuidv4 } = require('uuid');
-const ProcessingRequest = require('../Models/processingRequest');
+const ProcessingRequest = require('../models/processingRequest');
 const mongoose = require('mongoose');
 require('dotenv').config(); // Load environment variables
 async function connectDB() {

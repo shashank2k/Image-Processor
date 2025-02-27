@@ -3,7 +3,7 @@ const multer = require('multer');
 const csv = require('csv-parser');
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
-const ProcessingRequest = require('../Models/processingRequest');
+const ProcessingRequest = require('../models/processingRequest');
 
 const router = express.Router();
 const upload = multer({ dest: 'uploads/' });
